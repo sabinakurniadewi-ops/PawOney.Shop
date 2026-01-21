@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PawOney - Hidangan Penutup & Minuman Manis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000; /* Hitam */
+            color: #FFFFFF; /* Putih untuk teks utama */
+        }
+        header {
+            background-color: #000000;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #FFB6C1; /* Pink soft */
+        }
+        header h1 {
+            color: #FFB6C1; /* Pink soft */
+            margin: 0;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: #FFB6C1;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .product {
+            background-color: #111111; /* Hitam gelap untuk kartu */
+            border: 1px solid #FFB6C1;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .product:hover {
+            transform: scale(1.05);
+        }
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .product h3 {
+            color: #FFB6C1;
+            margin: 10px 0;
+        }
+        .product p {
+            color: #FFFFFF;
+            margin: 10px 0;
+        }
+        .btn {
+            background-color: #FFB6C1; /* Pink soft */
+            color: #000000;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .btn:hover {
+            background-color: #FF69B4; /* Pink lebih gelap */
+        }
+        footer {
+            background-color: #000000;
+            color: #FFB6C1;
+            text-align: center;
+            padding: 20px;
+            border-top: 2px solid #FFB6C1;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PawOney</h1>
+        <nav>
+            <a href="#home">Beranda</a>
+            <a href="#products">Produk</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+    </header>
+
+    <div class="container" id="home">
+        <h2 style="color: #FFB6C1; text-align: center;">Selamat Datang di PawOney</h2>
+        <p style="text-align: center;">Maniskan harimu dengan hidangan penutup dari PawOney!</p>
+    </div>
+
+    <div class="container" id="products">
+        <h2 style="color: #FFB6C1; text-align: center;">Produk Kami</h2>
+        <div class="product-grid">
+            <!-- Hidangan Penutup -->
+            <div class="product">
+                <img src="c:\Users\Sabina\Documents\website\New York Cheesecake.jpg" alt="Cheesecake">
+                <h3>Cheesecake</h3>
+                <p>Kue keju lembut dengan rasa klasik yang creamy dan lezat ditambah toping segar dari toping Strawberry. Harga: Rp 20.000</p>
+                <a href="https://wa.me/081228123854?text=Saya ingin pesan Cheesecake" class="btn">Beli Sekarang</a>
+            </div>
+            <div class="product">
+                <img src="c:\Users\Sabina\Documents\website\download (1).jpg" alt="Daifuku Mochi">
+                <h3>Daifuku Mochi</h3>
+                <p>Kue khas Jepang kenyal berisi pasta kacang merah yang manis ditambah rasa masam segar dari Strawberry utuh di dalamnya. Harga: Rp 30.000</p>
+                <a href="https://wa.me/081228123854?text=Saya ingin pesan Daifuku" class="btn">Beli Sekarang</a>
+            </div>
+            <div class="product">
+                <img src="c:\Users\Sabina\Documents\website\WhatsApp Image 2026-01-21 at 22.08.00.jpeg" alt="Brownies">
+                <h3>Brownies</h3>
+                <p>Kue cokelat fudgy yang lezat dan moist. Harga: Rp 40.000</p>
+                <a href="https://wa.me/081228123854?text=Saya ingin pesan Brownies" class="btn">Beli Sekarang</a>
+            </div>
+            <div class="product">
+                <img src="c:\Users\Sabina\Documents\website\Crepe Cake Perfection at Anton SV Patisserie.jpg" alt="Blueberry Mille Crepe">
+                <h3>Blueberry Mille Crepe</h3>
+                <p>Lapisan crepe tipis dengan isian krim dan potongan blueberri segar. Harga: Rp 40.000</p>
+                <a href="https://wa.me/081228123854?text=Saya ingin pesan Blueberry Mille Crepe" class="btn">Beli Sekarang</a>
+            </div>
+            <!-- Minuman Manis -->
+            <div class="product">
+                <img src="c:\Users\Sabina\Documents\website\Iced Matcha Latte - Recipe Flame.jpg" alt="Ice Matcha Latte ">
+                <h3>Ice Matcha Latte dengan Topping Cheese Cream</h3>
+                <p>Minuman hijau matcha yang creamy dengan topping krim keju. Harga: Rp 35.000</p>
+                <a href="https://wa.me/ 081228123854?text=Saya ingin pesan Ice Matcha Latte " class="btn">Beli Sekarang</a>
+            </div>
+            <div class="product">
+                <img src="c:\Users\Sabina\Documents\website\Milkshake recette maison _ 5 astuces pour un délice parfait.jpg" alt="Ice Chocolate">
+                <h3>Ice Chocolate dengan Topping Whipped Cream dan Cherry, rasa manisnya balance dengan pahit dari dark chocolate.</h3>
+                <p>Minuman cokelat dingin dengan krim kocok dan buah ceri. Harga: Rp 25.000</p>
+                <a href="https://wa.me/081228123854?text=Saya ingin pesan Ice Chocolate" class="btn">Beli Sekarang</a>
+            </div>
+            <div class="product">
+                <img src="c:\Users\Sabina\Documents\website\Quick Strawberry Sauce for Toppings.jpg" alt="Strawberry Milkshake">
+                <h3>Strawberry Milkshake dengan Topping Potongan Strawberry</h3>
+                <p>Stroberi yang di blender dengan susu sapi murni, dengan tambahan potongan stroberi segar. Harga: Rp 15.000</p>
+                <a href="https://wa.me/081228123854?text=Saya ingin pesan Strawberry Juice" class="btn">Beli Sekarang</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="contact">
+        <h2 style="color: #FFB6C1; text-align: center;">Kontak Kami</h2>
+        <p style="text-align: center;">Hubungi kami via WhatsApp: <a href="https://wa.me/081228123854" style="color: #FFB6C1;">+62 812-3456-7890</a></p>
+        <p style="text-align: center;">Email: info@pawoney.com</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 PawOney. Semua hak dilindungi.</p>
+    </footer>
+
+    <script>
+        // JavaScript sederhana untuk animasi hover (opsional)
+        document.querySelectorAll('.product').forEach(product => {
+            product.addEventListener('mouseenter', () => {
+                product.style.boxShadow = '0 0 10px #FFB6C1';
+            });
+            product.addEventListener('mouseleave', () => {
+                product.style.boxShadow = 'none';
+            });
+        });
+    </script>
+</body>
+</html>
